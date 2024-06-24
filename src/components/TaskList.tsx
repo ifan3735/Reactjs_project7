@@ -18,7 +18,9 @@ const TaskList: React.FC<TaskListProps> = ({ tasks, onToggle, onDelete }) => (
 );
 
 const List = styled.div`
-  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
 `;
 
 export default TaskList;

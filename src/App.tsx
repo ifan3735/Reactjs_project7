@@ -47,16 +47,18 @@ const App: React.FC = () => {
 };
 
 const Container = styled.div`
-justify-content: center;
-align-items: center;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 40px auto;
   padding: 20px;
-  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 `;
 
 const Title = styled.h1`
   color: #343a40;
+  font-size: 24px;
+  margin-bottom: 20px;
 `;
 
 export default App;
